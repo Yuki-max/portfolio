@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>ポートフォリオ</title>
+  </head>
+  <body>
+    <div class="container" id='block1'>
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="col-sm-6">
+                <nav>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Myself"><strong>Myself</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Works"><strong>Works</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Future"><strong>Future</strong></a>
+                        </li>
+                        <!--
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Contacts</a>
+                        </li>
+                    -->
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <!--自己紹介-->
+        <div class="row">
+            <p class="title" id="Myself"> Myself</P>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="my_img">
+                    <img src="./images/Yuki.png"  class="img" alt="自画像">
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <div class="Myself">
+                    <div class="name">
+                        <div class="my_name_1"><strong>Name</strong>：</div>
+                        <div class="my_name_2">嘉村　勇輝</div>
+                    </div>
+
+                    <div class="University">  
+                        <strong>University：</strong>
+                        <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/" target="_blank">武蔵野大学データサイエンス学部</a><br>
+                    </div>  
+                    <div class="study">       
+                        <div class="my_study_1"><strong>Study</strong>：</div>
+                        <div class="my_study_2">Python・データ分析・Django・SQL・PHP・GIMP・HTML/CSS</div>
+                    </div>
+
+                    <div class="Hobby mt-2">         
+                        <div class="my_Hobby_1"><strong>Hobby</strong>：</div>
+                        <div class="my_Hobby_2">
+                            漫画家小畑健の漫画・アイテム収集
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        
+        <!--作品-->
+        <div class="row">
+            <div class="title">
+                <div class="works_list" id="Works">Works</div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-sm-4">
+                <div class="first-grade-future">
+                    <div class ="work_title" >一年時研究</div>
+                    <div class="work_image">
+                        <img src="./images/future1.png" class="work_image2">
+                    </div>
+                    <div class="work_url">
+                        <a href="./images/future1.pdf" target="_blank">詳細へ</a>
+                    </div>
+                    <div class="work_content">学校生活中のバイタルデータ取得から分析</div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-4">
+                <div class="AI_competition">
+                    <div class="work_title">AIアイデアコンテスト</div>
+                    <div class="work_image">
+                        <img src="./images/AI_competition.png" class="work_image2">
+                    </div>
+                    <div class="work_url">
+                        <a href="./images/ AI_competition.pdf" target="_blank">詳細へ</a>
+                    </div>
+                    <div class="work_content">AIを駆使し、選挙投票率を向上できないか提案<br>コンテストでTOP10に入賞</div>
+                </div>
+                
+            </div>
+
+            <div class="col-sm-4">
+                <div class="second-grade-future">
+                    <div class="work_title">二年時研究</div>
+                    <div class="work_image">
+                        <img src="./images/komatuna2.png" class="work_image2">
+                    </div>
+                    <div class="work_url">
+                        <a href="./images/komatuna.pdf" target="_blank">詳細へ</a>
+                    </div>
+                    <div class="work_content">物体検知の技術を用いた小松菜の間引きの自動化の研究</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-4'>
+                <div class='PHPapp'>
+                    <div class="work_title">アプリ開発</div>
+                        <div class="work_image">
+                            <img src="./images/ramen_app.png" class="work_image2">
+                        </div>
+                        <div class="work_url">
+                            <a href="https://muds.gdl.jp/~s1922045/ラーメン店レコメンドシステム.php" target="_blank">アプリ画面へ</a>
+                        </div>
+                        <div class="work_content_app">
+                            <strong>タイトル：</strong>八王子ラーメン店レコメンドシステム<br>
+                            <strong>概要：</strong>八王子のラーメン店をレコメンドするアプリを実装<br>
+                            <strong>開発期間：</strong>１ヶ月半<br>
+                            <strong>開発言語：</strong>PHP<br>
+                            <strong>アプリ使い方：</strong>位置情報をONにし、アンケートを送信してください。
+                            アンケートを送信しますと下のオススメのラーメン店がレコメンドされます。
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container mb-5">
+        <!--展望-->
+        <div class="row">
+            <p class="title mt-3" id="Future">Future</P>
+        </div>
+
+        <div class='row'>
+            <li>アプリ開発の基礎となるHTML・CSS・Javascriptなどのフロント技術により磨きをかけていく。</li>
+            <li>地震予兆計測ライブラリをPyPIで公開予定(製作中)
+        </div>
+
+    </div>
+
+
+
+    <div id="footer">
+        <p>
+            <footer>© 2021 嘉村勇輝</footer>
+        </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+body:after {
+
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    content: "";
+    z-index: -1;
+    background: linear-gradient(to right bottom, #5dc4cb, #4ad8c6, #60e9b0, #92f78e, #d0ff66)fixed;
+    
+}
+#block1{
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: left;
+}
+
+a.nav-link{
+    font-size: large;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.img{
+    max-height: 200px;
+    min-height: 200px;
+    width:auto;
+    height:auto;
+    border-radius: 50%;
+    border: 5px solid blue;
+    display: block;
+     margin:auto;
+
+}
+
+.Myself{
+    /*background-color: blue;*/
+    height:200px;
+}
+
+
+.name{
+    font-size: 30px;
+    height:40%;
+    /*margin-bottom:5px;*/
+    display:table;
+    
+}
+
+.my_name_1 , .my_name_2{
+    display: inline;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+.University{
+    height:20%;
+    padding-bottom:10px;
+}
+
+.study{
+    height:20%;
+    padding-bottom:10px;
+}
+
+.my_study_1,.my_study_2{
+    display:inline;
+}
+
+.Hobby{
+    height:20%;
+    padding:20px,0px;
+}
+
+.my_Hobby_1 , .my_Hobby_2{
+    display:inline;
+}
+
+.my_Hobyy_url{
+    text-decoration:none;
+}
+
+
+.works_list{
+    margin-top:20px;
+}
+
+/*一年未来創造ブロック*/
+.first-grade-future{
+    /*background-color: aqua;*/
+    margin:5px auto;
+}
+.work_title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.work_image{
+    text-align: center;
+}
+
+.work_image2{
+    width:425px;
+    height: 220px;
+}
+
+.work_url{
+    text-align: center;
+    margin-bottom:3px;
+}
+
+.work_content{
+    text-align:center;
+}
+
+
+/*AIビジネスコンテスト*/
+
+.AI_competition{
+    margin:5px auto;
+}
+
+/*小松菜未来創像*/
+.second-grade-future{
+    margin:5px auto;
+}
+
+/*アプリ開発*/
+.work_content_app{
+    text-align: left;
+}
+
+/*フッター*/
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+footer{
+    /*footerの装飾*/
+    width: 100%;
+    background-color: #89c7de;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    /*position: absolute;/*←絶対位置*/*/
+    bottom: 0; /*下に固定*/
+}
+
+
+
